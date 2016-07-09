@@ -17,5 +17,7 @@ body {
 
 #team-members .member div.name {
   text-align: center; }
+  #team-members .member div.name body h1 {
+    color: #FF0000; }
 
 /*# sourceMappingURL=style.css.map */
