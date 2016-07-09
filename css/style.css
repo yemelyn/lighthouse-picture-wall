@@ -13,7 +13,10 @@ body {
     padding: 6px; }
   #team-members .member img {
     width: 200px;
-    height: 200px; }
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid #1b2b3c;
+    box-shadow: 5px 5px #bdb48f; }
   #team-members .member div.name {
     text-align: center; }
 

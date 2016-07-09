@@ -25,6 +25,9 @@ body {
 
   .member img {
   @include image-height-width(200px);
+  border-radius: 10px;
+  border: 2px solid #1b2b3c;
+  box-shadow: 5px 5px #bdb48f;
 }
 
   .member div.name {
