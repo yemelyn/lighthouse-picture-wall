@@ -17,23 +17,36 @@ body {
   clear: both;
 
   .member {
-  float: left;
-  /*border: 1px solid gray;*/
-  margin: 10px;
-  padding: 6px;
-}
+    float: left;
+    /*border: 1px solid gray;*/
+    margin: 10px;
+    padding: 6px;
+    &:nth-child(odd) {
+      transition: transform 1s;
+      &:hover {
+        transform: scale(1.1)
+      }
+    }
+    &:nth-child(even) {
+      transition: transform 1s;
+      &:hover {
+        transform: rotate(5deg)
+      }
+    }
+  }
 
   .member img {
-  @include image-height-width(200px);
-  border-radius: 10px;
-  border: 2px solid #1b2b3c;
-  box-shadow: 5px 5px #bdb48f;
-}
+    @include image-height-width(200px);
+    border-radius: 10px;
+    border: 2px solid #1b2b3c;
+    box-shadow: 5px 5px #bdb48f;
+  }
 
   .member div.name {
-  text-align: center;  
+    text-align: center;  
+  }
 }
-}
+
 
 
 

@@ -11,6 +11,14 @@ body {
     /*border: 1px solid gray;*/
     margin: 10px;
     padding: 6px; }
+    #team-members .member:nth-child(odd) {
+      transition: transform 1s; }
+      #team-members .member:nth-child(odd):hover {
+        transform: scale(1.1); }
+    #team-members .member:nth-child(even) {
+      transition: transform 1s; }
+      #team-members .member:nth-child(even):hover {
+        transform: rotate(5deg); }
   #team-members .member img {
     width: 200px;
     height: 200px;
